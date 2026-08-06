@@ -6,4 +6,4 @@ def deep_equal(a, b):
         return a.keys() == b.keys() and all(deep_equal(a[k], b[k]) for k in a)
     if isinstance(a, (list, tuple)) and isinstance(b, (list, tuple)):
         return len(a) == len(b) and all(deep_equal(x, y) for x, y in zip(a, b))
-    return a == b
+    return type(a) is type(b) and a == b

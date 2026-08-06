@@ -3,8 +3,9 @@
 ```
 deepequal.py
 ```
-See the test next to the source for usage.
 
-Compare nested objects/arrays for structural equality — dependency-free.
+Run the Python Deepequal test alongside the implementation to see concrete examples.
 
-No dependencies, no service to run — just the standard library.
+Compare nested objects and arrays for structural equality — no dependencies needed.
+
+Python Deepequal relies solely on the Python standard library. There's no service to set up and nothing extra to install.
